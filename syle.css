@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow:2px 2px 5px green;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Hacemos que el body sea un contenedor Flex */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #f4f4f9; /* Fondo de la página */
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
+    max-width: 300px; /* Ancho máximo de la calculadora */
+    width: 100%; /* Adaptación para pantallas pequeñas */
+}
+
+
+input, button{
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    box-shadow: 2px 2px 5px white ;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scaleY(1.2);
+}
